@@ -1,0 +1,33 @@
+header {text-align: center;
+background-color: black;
+color: white;
+padding-top:2px;}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #da05fb;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a:hover {
+  background-color: #00ff51;
+  color: black;
+  text-transform: uppercase;
+}
+
+ul li a {
+  display: inline;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body{padding: 20px;
+ background-color: bisque;
+ text-align: center;
+ padding-bottom: 50px;
+}
+footer{margin-top: 60px;}
