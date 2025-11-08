@@ -1,3 +1,11 @@
+@keyframes colorChange{
+  0% {background-color: #534bee; color: black;}
+  25% {background-color: #f54242; color: white;}
+  50% {background-color: #42f554; color: black;}
+  75% {background-color: #4287f5; color: white;}
+  100% {background-color: #51bc71; color: black;}
+}
+
 header {text-align: center;
 background-color: black;
 color: white;
@@ -12,13 +20,17 @@ ul{
   background-color: #da05fb;
   display: flex;
   justify-content: center;
+  animation-name: colorChange;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 ul li a:hover {
-  background-color: #00ff51;
+  background-color: #def2e4;
   color: black;
   text-transform: uppercase;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 ul li a:active { color: rgb(162, 3, 255); }
 ul li a {
@@ -33,4 +45,10 @@ body{padding: 20px;
  padding-bottom: 50px;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-footer{margin-top: 60px;}
+footer{margin-top: 60px;
+background-color: rgb(198, 7, 7);
+color: white;
+font-family:cursive;
+font-variant: small-caps;
+}
+
